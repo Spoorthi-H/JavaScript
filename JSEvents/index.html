@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link href=".\styles.css" rel="stylesheet">
+        <script src="./event.js" type="text/javascript"></script>></script> 
+ 
+    </head>
+    <body>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">OnMouseover:</h5>
+                          <p class="card-text">Mouse over to change button background color</p>
+                          <a href="#" class="btn btn-primary" id="btn1" onmouseover="changeColorover()">MouseOver</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">OnMouseout:</h5>
+                          <p class="card-text">Mouse out to change button background color</p>
+                          <a href="#" class="btn btn-success" id="btn2"OnMouseout="changeColorout()">MouseOut</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Onclick:</h5>
+                          <p class="card-text">Mouse click to change button background color</p>
+                          <a href="#" class="btn btn-danger" id="btn3" onclick="changeColorclk()">Mouseclick</a>
+                        </div>
+                      </div>
+                    </div>
+                    
+            </div>
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <h5 class="card-title">Ondbclick:</h5>
+                        <p class="card-text">Mouse double click to change button background color</p>
+                        <a href="#" class="btn btn-warning" id="btn4" ondblclick="changeColordblclk()"> doubleclick</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <h5 class="card-title">Onfocus:</h5>
+                        <p class="card-text">Click to change input background color</p>
+                        <input type="text" id="ip1" onfocus="changeColorfocus()"></input>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <h5 class="card-title">Onblur:</h5>
+                        <p class="card-text">Change lowercase to Uppercase onlur Events</p>
+                        <input type="text" id="ip2" onblur="changeColorblur()"></input>
+                      </div>
+                    </div>
+                  </div>
+            </div> 
+
+        </div>
+        
+    </body>
+</html>
