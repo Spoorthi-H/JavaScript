@@ -20,5 +20,6 @@ function changeColorfocus()
 }
 function changeColorblur()
 {
-    document.getElementById("ip2").style.backgroundColor="violet"
+   let name= document.getElementById("ip2").value
+   document.getElementById("ip2").value=name.toUpperCase()
 }
